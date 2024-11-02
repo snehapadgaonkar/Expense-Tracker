@@ -9,6 +9,6 @@ const router = express.Router();
 router.post('/add-transaction',addTransaction);
 
 //Get transactions
-router.get('/get-transactions', getAllTransaction);
+router.post('/get-transactions', getAllTransaction);
 
 module.exports = router;
