@@ -8,10 +8,6 @@
   height: 80vh;
 }
 
-.navbar {
-  background-color: greenyellow !important;
-}
-
 .register-page{
   display: flex;
   align-items: center;
