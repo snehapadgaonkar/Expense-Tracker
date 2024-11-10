@@ -1,4 +1,10 @@
-* {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -9,37 +15,27 @@
 }
 
 .register-page {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 90vh;
+  @apply flex items-center justify-center h-[90vh];
 }
 
 /* transaction */
 .filters {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 20px;
-  box-shadow: 0 0 3px gray;
+  @apply flex items-center justify-between p-4 shadow-sm;
 }
 
-/*antd icons*/
+/* Ant Design icons */
 .switch-icons {
-  border: 1px solid rgba(0, 0, 0, 0.677);
-  border-radius: 5px;
-  padding: 10px 15px;
+  @apply border border-gray-500 rounded-lg p-3;
 }
 
 .anticon svg {
-  font-size: 20px;
-  cursor: pointer;
+  @apply text-xl cursor-pointer;
 }
 
 .active-icon {
-  color: black;
+  @apply text-black;
 }
 
 .inactive-icon {
-  color: gray;
+  @apply text-gray-400;
 }

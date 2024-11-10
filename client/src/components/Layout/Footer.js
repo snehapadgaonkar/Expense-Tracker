@@ -1,19 +1,37 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
-    <div className='bg-dark text-light p-4'>
-      <div className='container'>
-        <div className='row'>
-          <div className='col text-center'>
-            <h6>© {new Date().getFullYear()} Expense Tracker</h6>
-            <p className='mb-0'>All rights reserved.</p>
-            <p className='mb-0'>Your reliable tool for managing expenses effectively.</p>
-            <p className='mb-0'>Contact us: <a href="mailto:support.expensetracker@gmail.com" className='text-light'>support.expensetracker@gmail.com</a></p>
-          </div>
+    <footer className="bg-gray-800 text-white py-8">
+      <div className="max-w-screen-xl mx-auto px-4">
+        <div className="text-center">
+          <h6 className="text-lg font-semibold mb-2">
+            © {new Date().getFullYear()} Pocketly
+          </h6>
+          <p className="text-sm mb-2">All rights reserved.</p>
+          <p className="text-sm mb-4 max-w-xl mx-auto">
+            Your reliable tool for managing expenses effectively.
+          </p>
+          <p className="text-sm">
+            Contact us:{" "}
+            <a
+              href="mailto:support.pocketly@gmail.com"
+              className="text-indigo-400 hover:text-indigo-300 transition-colors"
+            >
+              support.pocketly@gmail.com
+            </a>
+          </p>
+        </div>
+        <div className="mt-8 border-t border-gray-700 pt-4">
+          <p className="text-xs text-center text-gray-400">
+            Powered by{" "}
+            <a href="https://www.pocketly.com" className="text-indigo-400">
+              Pocketly
+            </a>
+          </p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

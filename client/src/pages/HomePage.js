@@ -58,6 +58,7 @@ const HomePage = () => {
           />
           <DeleteOutlined
             className="mx-2"
+            style={{ color: "red" }}
             onClick={() => {
               handleDelete(record);
             }}
