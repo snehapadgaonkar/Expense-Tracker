@@ -32,7 +32,7 @@ Pocketly is a powerful and intuitive expense tracker application built using the
 
    ```bash
    git clone https://github.com/snehapadgaonkar/Expense-Tracker.git
-   cd pocketly-expense-tracker
+   cd Expense-Tracker
    ```
 2. Install backend dependencies:
     ```bash
