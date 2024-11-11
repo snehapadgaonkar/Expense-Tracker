@@ -1,4 +1,4 @@
-import { generateResponse } from "./gemini";
+import { generateResponse } from "./openai"; // Updated to use OpenAI
 
 class ActionProvider {
   createChatBotMessage;

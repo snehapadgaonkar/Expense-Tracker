@@ -19,7 +19,14 @@ const config = {
     },
   },
   state: {
-    context: [],
+    // Context state: Holds chat history (messages and user interactions)
+    context: [
+      {
+        role: "system",
+        content:
+          "You are a helpful assistant for Pocketly, a personal finance management app. Please respond in a friendly, professional manner and keep responses concise.",
+      },
+    ],
   },
 };
 

@@ -24,7 +24,8 @@ app.use(cors());
 app.use("/api/v1/users", require("./routes/userRoute"));
 //transaction routes
 app.use("/api/v1/transactions", require("./routes/transactionRoutes"));
-
+//chatbot route
+app.use("/api/v1/chatbot", require("./routes/chatbotRoutes"));
 //port
 const PORT = 8080 || process.env.PORT;
 

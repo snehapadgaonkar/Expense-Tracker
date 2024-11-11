@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MessageSquare, X } from "lucide-react";
-import { generateResponse } from "../components/chatbot/gemini";
+import { generateResponse } from "../components/chatbot/openai";
 
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
